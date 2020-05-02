@@ -1,6 +1,7 @@
 package main
 
 import (
+	// "github.com/benjamin-daniel/hello/clip"
 	reader "github.com/benjamin-daniel/hello/reader_interface"
 )
 
@@ -41,6 +42,7 @@ func main() {
 	// wiki.ServeWiki()
 	// reader.Reader()
 	reader.SlothFacts()
+	// clip.CopyOverTime()
 }
 
 // func failUsers() {
