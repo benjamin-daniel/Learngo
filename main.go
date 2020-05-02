@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/benjamin-daniel/hello/wiki"
+	reader "github.com/benjamin-daniel/hello/reader_interface"
 )
 
 func main() {
@@ -38,7 +38,9 @@ func main() {
 	// webserver.PollUrls()
 	// webserver.WorkWithForm()
 	// statistics.WorkWithForm()
-	wiki.ServeWiki()
+	// wiki.ServeWiki()
+	// reader.Reader()
+	reader.SlothFacts()
 }
 
 // func failUsers() {
